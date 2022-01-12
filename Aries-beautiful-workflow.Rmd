@@ -1,5 +1,5 @@
 ---
-title: "R Notebook"
+title: "R Notebook hispital Arie 13 Jan 2022"
 output: html_notebook
 ---
 
@@ -21,7 +21,7 @@ subset_of_visits
 
 data viz of top visits
 ```{r}
- subset_of_visits %>%
+ subset_of_visits s%>%
  ggplot() +
   aes(x = n, y = total_visits) +
   geom_point(shape = "circle", size = 1.5, colour = "#112446") +
